@@ -22,7 +22,6 @@
 /* FUNDO COM PELÍCULA ESCURA PARA LEITURA */
 body {
   background-color: #121212;
-  /* O linear-gradient escurece a imagem de fundo para o texto ficar legível */
   background-image: linear-gradient(rgba(15, 10, 15, 0.75), rgba(15, 10, 15, 0.85)), url('fundo.jpeg');
   background-size: cover;
   background-position: center;
@@ -74,7 +73,7 @@ body::before {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 2px solid rgba(255, 71, 126, 0.3); /* Borda rosinha suave */
+  border: 2px solid rgba(255, 71, 126, 0.3);
   box-shadow: 0 4px 20px rgba(0,0,0,0.6);
 }
 
@@ -138,7 +137,7 @@ h1 {
 }
 
 .urgency-number {
-  color: #FF477E; /* Rosa Destaque */
+  color: #FF477E;
   font-size: 18px;
   font-weight: 800;
   animation: pulseColor 2s infinite;
@@ -170,7 +169,7 @@ h1 {
 /* SESSÃO DE VANTAGENS */
 .advantages-title {
   font-size: 13px;
-  color: #FF477E; /* Rosa Destaque */
+  color: #FF477E;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 800;
@@ -178,7 +177,7 @@ h1 {
 }
 
 .card {
-  background: rgba(30, 20, 25, 0.6); /* Fundo com leve tom quente */
+  background: rgba(30, 20, 25, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255,255,255,0.06);
   border-radius: 12px;
@@ -258,7 +257,7 @@ src="https://www.facebook.com/tr?id=1007254638801258&ev=PageView&noscript=1"
 
 <div class="container">
 
-<!-- FOTO DE PERFIL JÁ ATUALIZADA -->
+<!-- FOTO DE PERFIL -->
 <img src="perfil.jpeg" alt="Logo Beleza" class="profile-pic">
 
 <h1>Descubra as melhores ofertas de beleza e renove seu nécessaire</h1>
@@ -267,8 +266,8 @@ src="https://www.facebook.com/tr?id=1007254638801258&ev=PageView&noscript=1"
   👇 Grupo VIP Gratuito!
 </div>
 
-<!-- ATENÇÃO: COLOQUE AQUI O LINK DO SEU NOVO GRUPO DE BELEZA -->
-<a href="https://chat.whatsapp.com/HParxtQfbfTJn74tGhge37" class="btn-main">
+<!-- BOTÃO COM O EVENTO DE LEAD NO CLIQUE -->
+<a href="https://chat.whatsapp.com/HParxtQfbfTJn74tGhge37" onclick="fbq('track', 'Lead');" class="btn-main">
   ENTRAR NO GRUPO AGORA
 </a>
 
